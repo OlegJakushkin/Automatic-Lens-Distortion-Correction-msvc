@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\ami_pol\ami_pol.cpp" />
+    <ClCompile Include="..\ami_primitives\line_extraction.cpp" />
+    <ClCompile Include="..\ami_primitives\line_points.cpp" />
+    <ClCompile Include="..\ami_primitives\subpixel_image_contours.cpp" />
+    <ClCompile Include="..\ami_utilities\utilities.cpp" />
+    <ClCompile Include="..\ami_lens_distortion\lens_distortion.cpp" />
+    <ClCompile Include="..\ami_lens_distortion\lens_distortion_model.cpp" />
+    <ClCompile Include="..\ami_lens_distortion\lens_distortion_procedures.cpp" />
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\ami_image\io_bmp\ami_bmp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ami_pol\ami_pol.h" />
+    <ClInclude Include="..\ami_image_draw\image_draw.h" />
+    <ClInclude Include="..\ami_primitives\image_primitives.h" />
+    <ClInclude Include="..\ami_primitives\line.h" />
+    <ClInclude Include="..\ami_primitives\line_extraction.h" />
+    <ClInclude Include="..\ami_primitives\line_points.h" />
+    <ClInclude Include="..\ami_primitives\point2d.h" />
+    <ClInclude Include="..\ami_primitives\subpixel_image_contours.h" />
+    <ClInclude Include="..\ami_utilities\utilities.h" />
+    <ClInclude Include="..\ami_filters\filters.h" />
+    <ClInclude Include="..\ami_image\image.h" />
+    <ClInclude Include="..\ami_lens_distortion\lens_distortion.h" />
+    <ClInclude Include="..\ami_lens_distortion\lens_distortion_model.h" />
+    <ClInclude Include="..\ami_lens_distortion\lens_distortion_procedures.h" />
+    <ClInclude Include="..\ami_image\io_bmp\ami_bmp.h" />
+  </ItemGroup>
+</Project>

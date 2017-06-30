@@ -1,0 +1,6 @@
+-------------------------
+Results: 
+	 Number of detected lines: 19
+	 Total amount of line points: 934
+	 Estimated normalized distortion parameter: 0.501323
+	 Average squared error distance between line and associated points = 0.860843
